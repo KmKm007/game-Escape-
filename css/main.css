@@ -1,0 +1,52 @@
+h2{
+	text-align:center;
+	color:red;
+}
+p{
+	font-size:14px;
+	font-family: 黑体;
+	color:	#051B9B;
+}
+#mainbody{
+	width:800px;
+	height:600px;
+	position:relative;
+	margin:0 auto;
+}
+#can0,#can1,#can2{
+	position:absolute;
+	left:0;
+	top:0;
+}
+#can0{
+	z-index: 3;
+}
+#can1{
+	z-index:2;
+}
+#can2{
+	z-index:1;
+}
+#right{
+	position: absolute;
+	width:280px;
+	right:-280px;
+}
+#left{
+	position: absolute;
+	width:280px;
+	left:-280px;
+}
+#mesg p {
+	text-align: center;
+}
+
+#status{
+	width:100%;
+	box-sizing: border-box;
+	position: absolute;
+	left:0;
+	top:602px;
+	padding:0 20px;
+	border:#333333 1px solid;
+}
